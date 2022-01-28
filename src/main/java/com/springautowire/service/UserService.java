@@ -1,12 +1,13 @@
-package com.springbootkafkaproducerexample.service;
+package com.springautowire.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
-import com.springbootkafkaproducerexample.model.Person;
-import com.springbootkafkaproducerexample.model.User;
+import com.springautowire.model.Person;
+import com.springautowire.model.User;
+import org.springframework.stereotype.Service;
 
-//@Service
+@Service
 public class UserService {
 
 	@Autowired
