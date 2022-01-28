@@ -31,14 +31,14 @@ public class UserConfiguration {
     @Bean
     @Qualifier("add1")
     public Address addressOne() {
-        return new Address("hyd");
+        return new Address("hyd",null);
     }
 
 
     @Bean
     @Qualifier("add2")
     public Address addressTwo() {
-        return new Address("DXB");
+        return new Address("DXB","Diera");
     }
 
 
